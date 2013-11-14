@@ -1,3 +1,3 @@
-# Sinatra Skeleton
+# priyamathew.com
 
-This a database-less Sinatra skeleton.
+My personal website. 
