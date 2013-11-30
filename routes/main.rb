@@ -4,7 +4,6 @@ class App
   end
 
   get '/projects' do 
-  	haml :projects
-  end
-  
+    haml :projects
+  end  
 end
