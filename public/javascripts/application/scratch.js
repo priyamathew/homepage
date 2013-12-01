@@ -1,16 +1,3 @@
- WebFontConfig = {
-    google: { families: [ 'Patrick+Hand+SC::latin' ] }
-  };
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
-
   (function() {
     // Creates a new canvas element and appends it as a child
     // to the parent element, and returns the reference to
@@ -65,6 +52,6 @@
     }
 
     var container = document.getElementById('canvas');
-    init(container, 2560, 1600, 'white');
+    init(container, 600, 1024 'white');
 
 })();
